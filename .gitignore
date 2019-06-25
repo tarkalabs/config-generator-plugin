@@ -1,0 +1,6 @@
+.gradle
+.idea/misc.xml
+.idea/workspace.xml
+build/
+buildSrc/build
+buildSrc/.gradle

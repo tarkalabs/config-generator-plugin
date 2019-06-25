@@ -1,0 +1,21 @@
+plugins {
+  id 'java-gradle-plugin'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'com.squareup:javapoet:1.11.1'
+}
+
+gradlePlugin {
+  plugins {
+    simplePlugin {
+      id = 'com.tarkalabs.config-generator'
+      implementationClass = 'com.tarkalabs.GeneratorPlugin'
+    }
+  }
+}
+
