@@ -1,3 +1,8 @@
 plugins {
-	id 'com.tarkalabs.config-generator'
+  id 'com.tarkalabs.config-generator'
+}
+generatorConfiguration {
+  configurationFilePath "configuration.json"
+  packageName "com.tarkalabs"
+  configurationClassName "Config"
 }

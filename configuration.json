@@ -1,0 +1,12 @@
+{
+  "to": "topid/dev-2038",
+  "data": {
+    "summary": "Hi there.",
+    "prId": 12345,
+    "type": "silent_notification"
+  },
+  "notification": {
+    "title": "Hi Sameer "
+  },
+  "content_available": true
+}
